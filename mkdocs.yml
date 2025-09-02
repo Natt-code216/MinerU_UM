@@ -1,10 +1,49 @@
 site_name: MinerU使用文档
+site_url: https://github.com/Natt-code216/MinerU_UM
+repo_name: Natt-code216/MinerU_UM
+repo_url: https://github.com/Natt-code216/MinerU_UM
 
+theme:
+  name: material
+  language: zh
+  logo: assets/images/logo.png
+  favicon: assets/images/logo.png
+  icon:
+    repo: fontawesome/brands/github
 
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
 
+  features:
+    - navigation.expand
+    - navigation.sections
+    - navigation.path
+    - navigation.top
+    - navigation.tracking
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - toc.follow
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Natt-code216
+      name: GitHub
 
-# Navigation -------------------------------------
+copyright: © 2024 - 2025 MinerU. All Rights Reserved.
+
 nav:
   - '首页': 'index.md'
   - '关于MinerU':
@@ -28,3 +67,15 @@ nav:
   - '常见问题': 'faq.md'
   - '联系我们': 'contact.md'
   - '友情链接': 'links.md'
+
+plugins:
+  - search
+  - mkdocs-video
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list

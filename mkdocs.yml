@@ -29,7 +29,7 @@ theme:
     #- navigation.expand
     - navigation.sections
     - navigation.path
-    - navigation.top
+    #- navigation.top
     - navigation.tracking
     - content.code.copy
     - content.code.annotate

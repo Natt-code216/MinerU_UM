@@ -39,8 +39,20 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/Natt-code216
+      link: https://github.com/opendatalab/MinerU
       name: GitHub
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/OpenDataLab_AI
+      name: X-Twitter
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/Tdedn9GTXq
+      name: Discord
+    - icon: fontawesome/brands/weixin
+      link: https://mineru.net/community-portal/?aliasId=3c430f94
+      name: WeChat
+    - icon: material/email
+      link: mailto:OpenDataLab@pjlab.org.cn
+      name: E-mail
 
 copyright: © 2024 - 2025 MinerU. All Rights Reserved.
 

@@ -70,7 +70,14 @@ nav:
     - '本地部署': 'quick-start/local-deployment.md'
     - 'Web/客户端': 'quick-start/web-client.md'
     - '在线API服务': 'quick-start/api-service.md'
-    - '插件与生态': 'quick-start/plugins.md'
+    - '插件与生态': 
+      - '本章概述': 'quick-start/plugins/index.md'
+      - 'Coze': 'quick-start/plugins/coze.md'
+      - 'Dify': 'quick-start/plugins/dify.md'
+      - 'N8N': 'quick-start/plugins/n8n.md'
+      - 'Cherry Studio': 'quick-start/plugins/cherry-studio.md'
+      - 'Sider': 'quick-start/plugins/sider.md'
+      
   - '使用指南':
     - '本地部署': 'user-guides/local-deployment.md'
     - 'Web/客户端': 'user-guides/web-client.md'

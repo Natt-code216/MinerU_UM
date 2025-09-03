@@ -26,9 +26,10 @@ theme:
         name: 切换到浅色模式
 
   features:
-    - navigation.expand
+    #- navigation.expand
     - navigation.sections
     - navigation.path
+    - navigation.indexes
     #- navigation.top
     - navigation.tracking
     - content.code.copy

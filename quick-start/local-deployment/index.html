@@ -73,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -589,6 +594,19 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    本地部署
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -600,6 +618,89 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      本地部署
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="本地部署">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mineru" class="md-nav__link">
+    <span class="md-ellipsis">
+      安装 MinerU
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="安装 MinerU">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pipuvmineru" class="md-nav__link">
+    <span class="md-ellipsis">
+      使用pip或uv安装MinerU
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mineru_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      通过源码安装MinerU
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dockermineru" class="md-nav__link">
+    <span class="md-ellipsis">
+      使用docker部署Mineru
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mineru_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      使用 MinerU
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1083,6 +1184,80 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      本地部署
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="本地部署">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mineru" class="md-nav__link">
+    <span class="md-ellipsis">
+      安装 MinerU
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="安装 MinerU">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pipuvmineru" class="md-nav__link">
+    <span class="md-ellipsis">
+      使用pip或uv安装MinerU
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mineru_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      通过源码安装MinerU
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dockermineru" class="md-nav__link">
+    <span class="md-ellipsis">
+      使用docker部署Mineru
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mineru_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      使用 MinerU
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1102,7 +1277,77 @@
 
   <h1>本地部署</h1>
 
-<p>1111</p>
+<div><h2 id="_1">本地部署</h2>
+<blockquote>
+<p>[!WARNING]
+<strong>安装前必看——软硬件环境支持说明</strong></p>
+<p>为了确保项目的稳定性和可靠性，我们在开发过程中仅对特定的软硬件环境进行优化和测试。这样当用户在推荐的系统配置上部署和运行项目时，能够获得最佳的性能表现和最少的兼容性问题。</p>
+<p>通过集中资源和精力于主线环境，我们团队能够更高效地解决潜在的BUG，及时开发新功能。</p>
+<p>在非主线环境中，由于硬件、软件配置的多样性，以及第三方依赖项的兼容性问题，我们无法100%保证项目的完全可用性。因此，对于希望在非推荐环境中使用本项目的用户，我们建议先仔细阅读文档以及FAQ，大多数问题已经在FAQ中有对应的解决方案，除此之外我们鼓励社区反馈问题，以便我们能够逐步扩大支持范围。</p>
+</blockquote>
+<table border="1">
+    <tr>
+        <td>解析后端</td>
+        <td>pipeline</td>
+        <td>vlm-transformers</td>
+        <td>vlm-sglang</td>
+    </tr>
+    <tr>
+        <td>操作系统</td>
+        <td>Linux / Windows / macOS</td>
+        <td>Linux / Windows</td>
+        <td>Linux / Windows (via WSL2)</td>
+    </tr>
+    <tr>
+        <td>CPU推理支持</td>
+        <td>✅</td>
+        <td colspan="2">❌</td>
+    </tr>
+    <tr>
+        <td>GPU要求</td>
+        <td>Turing及以后架构，6G显存以上或Apple Silicon</td>
+        <td colspan="2">Turing及以后架构，8G显存以上</td>
+    </tr>
+    <tr>
+        <td>内存要求</td>
+        <td colspan="3">最低16G以上，推荐32G以上</td>
+    </tr>
+    <tr>
+        <td>磁盘空间要求</td>
+        <td colspan="3">20G以上，推荐使用SSD</td>
+    </tr>
+    <tr>
+        <td>python版本</td>
+        <td colspan="3">3.10-3.13</td>
+    </tr>
+</table>
+
+<h3 id="mineru">安装 MinerU</h3>
+<h4 id="pipuvmineru">使用pip或uv安装MinerU</h4>
+<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>--upgrade<span class="w"> </span>pip<span class="w"> </span>-i<span class="w"> </span>https://mirrors.aliyun.com/pypi/simple
+pip<span class="w"> </span>install<span class="w"> </span>uv<span class="w"> </span>-i<span class="w"> </span>https://mirrors.aliyun.com/pypi/simple
+uv<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-U<span class="w"> </span><span class="s2">"mineru[core]"</span><span class="w"> </span>-i<span class="w"> </span>https://mirrors.aliyun.com/pypi/simple<span class="w"> </span>
+</code></pre></div>
+<h4 id="mineru_1">通过源码安装MinerU</h4>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/opendatalab/MinerU.git
+<span class="nb">cd</span><span class="w"> </span>MinerU
+uv<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </span>.<span class="o">[</span>core<span class="o">]</span><span class="w"> </span>-i<span class="w"> </span>https://mirrors.aliyun.com/pypi/simple
+</code></pre></div>
+<blockquote>
+<p>[!TIP]
+<code>mineru[core]</code>包含除<code>sglang</code>加速外的所有核心功能，兼容Windows / Linux / macOS系统，适合绝大多数用户。
+如果您有使用<code>sglang</code>加速VLM模型推理，或是在边缘设备安装轻量版client端等需求，可以参考文档<a href="./extension_modules.md">扩展模块安装指南</a>。</p>
+</blockquote>
+<hr>
+<h4 id="dockermineru">使用docker部署Mineru</h4>
+<p>MinerU提供了便捷的docker部署方式，这有助于快速搭建环境并解决一些棘手的环境兼容问题。
+您可以在文档中获取<a href="./docker_deployment.md">Docker部署说明</a>。</p>
+<hr>
+<h3 id="mineru_2">使用 MinerU</h3>
+<p>最简单的命令行调用方式:
+</p><div class="highlight"><pre><span></span><code>mineru<span class="w"> </span>-p<span class="w"> </span>&lt;input_path&gt;<span class="w"> </span>-o<span class="w"> </span>&lt;output_path&gt;
+</code></pre></div>
+<p>您可以通过命令行、API、WebUI等多种方式使用MinerU进行PDF解析，具体使用方法请参考<a href="../usage/index.md">使用指南</a>。</p></div>
 
 
 

@@ -73,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -1002,6 +1007,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -1080,6 +1087,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -1098,9 +1107,37 @@
   
 
 
-  <h1>常见问题</h1>
-
-<p>111111</p>
+<div><h1 id="_1">常见问题解答</h1>
+<p>如果未能列出您的问题，您也可以使用<a href="https://deepwiki.com/opendatalab/MinerU">DeepWiki</a>与AI助手交流，这可以解决大部分常见问题。</p>
+<p>如果您仍然无法解决问题，您可通过<a href="https://discord.gg/Tdedn9GTXq">Discord</a>或<a href="https://mineru.net/community-portal/?aliasId=3c430f94">WeChat</a>加入社区，与其他用户和开发者交流。</p>
+<details class="question">
+<summary>在WSL2的Ubuntu22.04中遇到报错<code>ImportError: libGL.so.1: cannot open shared object file: No such file or directory</code></summary>
+<p>WSL2的Ubuntu22.04中缺少<code>libgl</code>库，可通过以下命令安装<code>libgl</code>库解决：</p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>libgl1-mesa-glx
+</code></pre></div>
+<p>参考：<a href="https://github.com/opendatalab/MinerU/issues/388">#388</a></p>
+</details>
+<details class="question">
+<summary>在 CentOS 7 或 Ubuntu 18 系统安装MinerU时报错<code>ERROR: Failed building wheel for simsimd</code></summary>
+<p>新版本albumentations(1.4.21)引入了依赖simsimd,由于simsimd在linux的预编译包要求glibc的版本大于等于2.28，导致部分2019年之前发布的Linux发行版无法正常安装，可通过如下命令安装:
+</p><div class="highlight"><pre><span></span><code>conda create -n mineru python=3.11 -y
+conda activate mineru
+pip install -U "mineru[pipeline_old_linux]"
+</code></pre></div>
+<p>参考：<a href="https://github.com/opendatalab/MinerU/issues/1004">#1004</a></p>
+</details>
+<details class="question">
+<summary>在 Linux 系统安装并使用时，解析结果缺失部份文字信息。</summary>
+<p>MinerU在&gt;=2.0的版本中使用<code>pypdfium2</code>代替<code>pymupdf</code>作为PDF页面的渲染引擎，以解决AGPLv3的许可证问题，在某些Linux发行版，由于缺少CJK字体，可能会在将PDF渲染成图片的过程中丢失部份文字。
+为了解决这个问题，您可以通过以下命令安装noto字体包，这在Ubuntu/debian系统中有效：
+</p><div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>update
+sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>fonts-noto-core
+sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>fonts-noto-cjk
+fc-cache<span class="w"> </span>-fv
+</code></pre></div>
+也可以直接使用我们的<a href="../quick_start/docker_deployment.md">Docker部署</a>方式构建镜像，镜像中默认包含以上字体包。
+<p>参考：<a href="https://github.com/opendatalab/MinerU/issues/2915">#2915</a></p>
+</details></div>
 
 
 

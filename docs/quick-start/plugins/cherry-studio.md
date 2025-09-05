@@ -4,19 +4,19 @@ Cherry Studio 是一款功能强大的多模型 AI 客户端软件，支持 Wind
 
 目前，MinerU 强大的文档解析能力已深度集成到 Cherry Studio 的知识库与对话交互中，为用户带来更便捷的文档处理与信息获取体验。
 
-![img](https://aicarrier.feishu.cn/space/api/box/stream/download/asynccode/?code=MzJmMDkxMDU1ZjIzZjNkYjk2MzI5MDg1ZDAxMTQ2MDVfSGNaNWlGRU9DRmF4YmM5b1VSVnVpV3d1RGpLeUY0TjJfVG9rZW46SVpYbWJMc2djb1R0U0J4SHFVa2N4ZU85bmdmXzE3NTY5NzEyNTc6MTc1Njk3NDg1N19WNA)
+![img](../../assets/images/Cherry_Studio_1.png)
 
 Cherry Studio下载链接：https://www.cherry-ai.com/
 
-## 使用方法
+# 使用方法
 
 ## 进入 Cherry Studio 设置
 
- a. 打开 Cherry Studio 应用程序
+a. 打开 Cherry Studio 应用程序
 
- b. 点击左下角的"设置"按钮，进入设置页面
+b. 点击左下角的"设置"按钮，进入设置页面
 
- c. 在左侧菜单中，选择"MCP 服务器"
+c. 在左侧菜单中，选择"MCP 服务器"
 
 在右侧的 MCP 服务器配置界面中，您可以看到已有的 MCP 服务器列表。点击右上角的"添加服务器"按钮来创建新的 MCP 服务，或者点击现有服务来编辑配置。
 
@@ -24,17 +24,17 @@ Cherry Studio下载链接：https://www.cherry-ai.com/
 
 点击"添加服务器"后，您将看到一个配置表单。请按以下步骤填写：
 
- **a. 名称**：输入"MinerU-MCP"或您喜欢的其他名称
+**a. 名称**：输入"MinerU-MCP"或您喜欢的其他名称
 
- **b. 描述**：可选，如"文档转换为Markdown工具"
+**b. 描述**：可选，如"文档转换为Markdown工具"
 
- **c. 类型**：选择"标准输入/输出（stdio）"
+**c. 类型**：选择"标准输入/输出（stdio）"
 
- **d. 命令**：输入 uvx
+**d. 命令**：输入 uvx
 
- **e. 参数**：输入 mineru-mcp
+**e. 参数**：输入 mineru-mcp
 
- **f. 环境变量**：添加以下环境变量
+**f. 环境变量**：添加以下环境变量
 
 ```Plain
 MINERU_API_BASE=https://mineru.net
@@ -50,9 +50,9 @@ LOCAL_MINERU_API_BASE=http://localhost:8888
 
 确认无误后，点击界面右上角的"保存"按钮完成配置。保存后，MCP 服务器列表中会显示您刚刚添加的 MinerU-MCP 服务。
 
-![img](https://aicarrier.feishu.cn/space/api/box/stream/download/asynccode/?code=ZTcyMzcwZGVkMzljMTMyMTgyNmQyNDc0ZGE3NDUwMGNfQUZNNDB3Wm1MdVM1YnhwTTdsQWs4VDd6QWlEOTZBVTRfVG9rZW46SXdhMWJQcVlPb1UwMUR4Mnp4S2NKaXNMbnNkXzE3NTY5NzEyNTc6MTc1Njk3NDg1N19WNA)
+![img](../../assets/images/Cherry_Studio_2.png)
 
-![img](https://aicarrier.feishu.cn/space/api/box/stream/download/asynccode/?code=YWUyNGUxMTJhZTYwMzQwOTU4ZDM0MWFkNzc4MmQxNmVfcWlGV09rb3dINFpaVzE0cXM3eExXMDdxc1B1eFhWZVJfVG9rZW46STNhRGJPV1hsbzVRcHZ4WHJqQ2NtbjFlbmdjXzE3NTY5NzEyNTc6MTc1Njk3NDg1N19WNA)
+![img](../../assets/images/Cherry_Studio_3.png)
 
 ## 使用 Cherry Studio 中的 MinerU MCP
 
@@ -76,7 +76,7 @@ LOCAL_MINERU_API_BASE=http://localhost:8888
 
 工具处理完成后，模型会告知您转换结果。
 
-![img](https://aicarrier.feishu.cn/space/api/box/stream/download/asynccode/?code=ZmZkYjY5MjIzZjgwOTViOTQ2YmYzZDYyMTJmYWEyODhfbEhFTmVIaEJjU0tZMFZrTEh5Uzg3N3dBTnBiYXU0ZDVfVG9rZW46TmFtN2Jwa054b3hxTUR4RXRBRWM3dmZ0bktkXzE3NTY5NzEyNTc6MTc1Njk3NDg1N19WNA)
+![img](../../assets/images/Cherry_Studio_4.png)
 
 ## 示例 2: 转换本地文档
 
@@ -94,7 +94,7 @@ LOCAL_MINERU_API_BASE=http://localhost:8888
 {"file_sources": "D://sample.pdf"}
 ```
 
-![img](https://aicarrier.feishu.cn/space/api/box/stream/download/asynccode/?code=N2Q3MTU5OTE1NWIyNzI2MTQ1N2Q5NTE0MTcwYzQ3NjdfZk9LSnJsQWx2ZVRIZHlHVldHekRPNlJjd1F2Z1JTSFFfVG9rZW46Q3V5OGJLTFUzb0VjVkp4VEp2Z2NMYzJFbkljXzE3NTY5NzEyNTc6MTc1Njk3NDg1N19WNA)
+![img](../../assets/images/Cherry_Studio_5.png)
 
 ## 示例 3: 启用 OCR 处理扫描文档
 
@@ -113,7 +113,7 @@ https://example.com/scanned.pdf
 {"file_sources": "https://example.com/scanned.pdf","enable_ocr": true}
 ```
 
-![img](https://aicarrier.feishu.cn/space/api/box/stream/download/asynccode/?code=NzQxODkzOWM3NzkxOTZmMDQzZDQ4OTg3NjI1MzE3ZDlfM0x2NzFqbEsxUDhYZ00ycHVUaFQ2Mzdqd21zUXRvdDlfVG9rZW46Q3ZmQWJBbmt1b3Rtb2V4MVM3TWMzbUphbjVlXzE3NTY5NzEyNTc6MTc1Njk3NDg1N19WNA)
+![img](../../assets/images/Cherry_Studio_6.png)
 
 ## 示例 4: 完整对话流程
 
@@ -137,7 +137,7 @@ Recent diffusion models can generate high-quality images that are nearly indisti
 [显示论文内容...]
 ```
 
-![img](https://aicarrier.feishu.cn/space/api/box/stream/download/asynccode/?code=MWRiZGIzMjM5ZmJhYjQwZTBkMTQ4MGFlMTMyNjQxNDBfZWU1WTNzakxZS2Y5aWg2UklZSGpKWDdBb3VsWXhjUERfVG9rZW46T016RmJmVVdxbzFYcWZ4M2ZYemNXNUFVbnNmXzE3NTY5NzEyNTc6MTc1Njk3NDg1N19WNA)
+![img](../../assets/images/Cherry_Studio_7.png)
 
 ## 工具参数详解
 
@@ -145,7 +145,7 @@ Recent diffusion models can generate high-quality images that are nearly indisti
 
 ### ● *parse_documents* 工具参数
 
-![img](https://aicarrier.feishu.cn/space/api/box/stream/download/asynccode/?code=NjAzZTQ2YjIyZWQyYzA5YjdjZTZjN2Q1ZDMxOWY4OWFfbUkzOGRHQ0FYblZVeEFhTlpjVXVCWmkxbmhHbjBMeXVfVG9rZW46TUNCWmJ4b1JHb2JTZ0h4R0hvd2NpUmRLblVlXzE3NTY5NzEyNTc6MTc1Njk3NDg1N19WNA)
+![img](../../assets/images/Cherry_Studio_8.png)
 
 ### ● *get_ocr_languages* 工具参数
 
@@ -153,7 +153,7 @@ Recent diffusion models can generate high-quality images that are nearly indisti
 
 ## 高级用法
 
-### 指定语言和页码范围
+###  指定语言和页码范围
 
 **用户输入:**
 
@@ -176,7 +176,7 @@ https://example.com/doc3.pdf
 
 模型会调用 *`parse_documents`* 工具，并将多个 URL 以逗号分隔传入 *`file_sources`* 参数。
 
-1. ## 注意事项
+## 注意事项
 
 ● 当设置 *`USE_LOCAL_API=true`* 时，使用本地配置的API进行解析
 

@@ -79,7 +79,12 @@ nav:
       - 'Cherry Studio': 'quick-start/plugins/cherry-studio.md'
       - 'Sider': 'quick-start/plugins/sider.md'
   - '使用指南':
-    - '本地部署': 'user-guides/local-deployment.md'
+    - '本地部署':
+      - '概述': 'user-guides/local-deployment/index.md'
+      - '扩展模块安装': 'user-guides/local-deployment/extension-modules.md'
+      - '模型源': 'user-guides/local-deployment/model-source.md'
+      - '命令行工具': 'user-guides/local-deployment/cli-tools.md'
+      - 'Docker部署': 'user-guides/local-deployment/docker-deployment.md'
     - 'Web/客户端': 'user-guides/web-client.md'
     - '在线API服务': 'user-guides/api-service.md'
     - '插件与生态': 'user-guides/plugins.md' 

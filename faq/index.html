@@ -122,9 +122,19 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="切换到深色模式"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
     
-      <label class="md-header__button md-icon" title="切换到深色模式" for="__palette_1" hidden>
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
       </label>
     
@@ -132,9 +142,9 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="切换到浅色模式"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
     
-      <label class="md-header__button md-icon" title="切换到浅色模式" for="__palette_0" hidden>
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
       </label>
     
@@ -284,8 +294,6 @@
       
         
       
-        
-      
     
     
     
@@ -335,29 +343,6 @@
   
   <span class="md-ellipsis">
     产品简介
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../about/features/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    主要功能
     
   </span>
   
@@ -901,9 +886,39 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../user-guides/local-deployment/" class="md-nav__link">
+    
+    
+      
         
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../user-guides/local-deployment/" class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -912,7 +927,142 @@
   </span>
   
 
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            本地部署
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guides/local-deployment/extension-modules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    扩展模块安装
+    
+  </span>
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guides/local-deployment/model-source/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    模型源
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guides/local-deployment/cli-tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    命令行工具
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guides/local-deployment/advanced-cli-parameters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    命令行进阶参数
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guides/local-deployment/docker-deployment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Docker部署
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1113,28 +1263,33 @@
 <details class="question">
 <summary>在WSL2的Ubuntu22.04中遇到报错<code>ImportError: libGL.so.1: cannot open shared object file: No such file or directory</code></summary>
 <p>WSL2的Ubuntu22.04中缺少<code>libgl</code>库，可通过以下命令安装<code>libgl</code>库解决：</p>
-<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>libgl1-mesa-glx
-</code></pre></div>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>libgl1-mesa-glx
+</code></pre></div></td></tr></table></div>
 <p>参考：<a href="https://github.com/opendatalab/MinerU/issues/388">#388</a></p>
 </details>
 <details class="question">
 <summary>在 CentOS 7 或 Ubuntu 18 系统安装MinerU时报错<code>ERROR: Failed building wheel for simsimd</code></summary>
 <p>新版本albumentations(1.4.21)引入了依赖simsimd,由于simsimd在linux的预编译包要求glibc的版本大于等于2.28，导致部分2019年之前发布的Linux发行版无法正常安装，可通过如下命令安装:
-</p><div class="highlight"><pre><span></span><code>conda create -n mineru python=3.11 -y
+</p><div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code>conda create -n mineru python=3.11 -y
 conda activate mineru
 pip install -U "mineru[pipeline_old_linux]"
-</code></pre></div>
+</code></pre></div></td></tr></table></div>
 <p>参考：<a href="https://github.com/opendatalab/MinerU/issues/1004">#1004</a></p>
 </details>
 <details class="question">
 <summary>在 Linux 系统安装并使用时，解析结果缺失部份文字信息。</summary>
 <p>MinerU在&gt;=2.0的版本中使用<code>pypdfium2</code>代替<code>pymupdf</code>作为PDF页面的渲染引擎，以解决AGPLv3的许可证问题，在某些Linux发行版，由于缺少CJK字体，可能会在将PDF渲染成图片的过程中丢失部份文字。
 为了解决这个问题，您可以通过以下命令安装noto字体包，这在Ubuntu/debian系统中有效：
-</p><div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>update
+</p><div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span></pre></div></td><td class="code"><div><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>update
 sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>fonts-noto-core
 sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>fonts-noto-cjk
 fc-cache<span class="w"> </span>-fv
-</code></pre></div>
+</code></pre></div></td></tr></table></div>
 也可以直接使用我们的<a href="../quick_start/docker_deployment.md">Docker部署</a>方式构建镜像，镜像中默认包含以上字体包。
 <p>参考：<a href="https://github.com/opendatalab/MinerU/issues/2915">#2915</a></p>
 </details></div>

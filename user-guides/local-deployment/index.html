@@ -14,7 +14,7 @@
         <link rel="prev" href="../../quick-start/plugins/sider/">
       
       
-        <link rel="next" href="../web-client/">
+        <link rel="next" href="extension-modules/">
       
       
       <link rel="icon" href="../../assets/images/logo.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>本地部署 - MinerU使用文档</title>
+        <title>概述 - MinerU使用文档</title>
       
     
     
@@ -73,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#mineru" class="md-skip">
+          跳转至
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -104,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              本地部署
+              概述
             
           </span>
         </div>
@@ -117,9 +122,19 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="切换到深色模式"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
     
-      <label class="md-header__button md-icon" title="切换到深色模式" for="__palette_1" hidden>
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
       </label>
     
@@ -127,9 +142,9 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="切换到浅色模式"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
     
-      <label class="md-header__button md-icon" title="切换到浅色模式" for="__palette_0" hidden>
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
       </label>
     
@@ -279,8 +294,6 @@
       
         
       
-        
-      
     
     
     
@@ -330,29 +343,6 @@
   
   <span class="md-ellipsis">
     产品简介
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../about/features/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    主要功能
     
   </span>
   
@@ -900,14 +890,39 @@
   
   
   
-    <li class="md-nav__item md-nav__item--active">
+    
+    
       
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
         
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
   
   
   <span class="md-ellipsis">
@@ -916,7 +931,141 @@
   </span>
   
 
+            </a>
+            
+              
+              <label class="md-nav__link md-nav__link--active" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            本地部署
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="extension-modules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    扩展模块安装
+    
+  </span>
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="model-source/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    模型源
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cli-tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    命令行工具
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="advanced-cli-parameters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    命令行进阶参数
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="docker-deployment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Docker部署
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
       
     </li>
   
@@ -1082,6 +1231,52 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      快速配置模型源
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      通过命令行快速使用
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apiwebuisglang-clientserver" class="md-nav__link">
+    <span class="md-ellipsis">
+      通过api、webui、sglang-client/server进阶使用
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mineru_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      基于配置文件扩展 MinerU 功能
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1100,9 +1295,95 @@
   
 
 
-  <h1>本地部署</h1>
-
-<p>111111</p>
+<div><h1 id="mineru">使用 MinerU</h1>
+<h2 id="_1">快速配置模型源</h2>
+<p>MinerU默认使用<code>huggingface</code>作为模型源，若用户网络无法访问<code>huggingface</code>，可以通过环境变量便捷地切换模型源为<code>modelscope</code>：
+</p><div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">MINERU_MODEL_SOURCE</span><span class="o">=</span>modelscope
+</code></pre></div></td></tr></table></div>
+有关模型源配置和自定义本地模型路径的更多信息，请参考文档中的<a href="model-source/">模型源说明</a>
+<h2 id="_2">通过命令行快速使用</h2>
+<p>MinerU内置了命令行工具，用户可以通过命令行快速使用MinerU进行PDF解析：
+</p><div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="c1"># 默认使用pipeline后端解析</span>
+mineru<span class="w"> </span>-p<span class="w"> </span>&lt;input_path&gt;<span class="w"> </span>-o<span class="w"> </span>&lt;output_path&gt;
+</code></pre></div></td></tr></table></div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<ul>
+<li><code>&lt;input_path&gt;</code>：本地 PDF/图片 文件或目录</li>
+<li><code>&lt;output_path&gt;</code>：输出目录</li>
+</ul>
+<p>更多关于输出文件的信息，请参考<a href="../reference/output_files.md">输出文件说明</a>。</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>命令行工具会在Linux和macOS系统自动尝试cuda/mps加速。Windows用户如需使用cuda加速，
+请前往 <a href="https://pytorch.org/get-started/locally/">Pytorch官网</a> 选择适合自己cuda版本的命令安装支持加速的<code>torch</code>和<code>torchvision</code>。</p>
+</div>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="c1"># 或指定vlm后端解析</span>
+mineru<span class="w"> </span>-p<span class="w"> </span>&lt;input_path&gt;<span class="w"> </span>-o<span class="w"> </span>&lt;output_path&gt;<span class="w"> </span>-b<span class="w"> </span>vlm-transformers
+</code></pre></div></td></tr></table></div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>vlm后端另外支持<code>sglang</code>加速，与<code>transformers</code>后端相比，<code>sglang</code>的加速比可达20～30倍，可以在<a href="extension-modules/">扩展模块安装指南</a>中查看支持<code>sglang</code>加速的完整包安装方法。</p>
+</div>
+<p>如果需要通过自定义参数调整解析选项，您也可以在文档中查看更详细的<a href="cli-tools/">命令行工具使用说明</a>。</p>
+<h2 id="apiwebuisglang-clientserver">通过api、webui、sglang-client/server进阶使用</h2>
+<ul>
+<li>通过python api直接调用：<a href="https://github.com/opendatalab/MinerU/blob/master/demo/demo.py">Python 调用示例</a></li>
+<li>通过fast api方式调用：
+  <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>mineru-api<span class="w"> </span>--host<span class="w"> </span><span class="m">0</span>.0.0.0<span class="w"> </span>--port<span class="w"> </span><span class="m">8000</span>
+</code></pre></div></td></tr></table></div><div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>在浏览器中访问 <code>http://127.0.0.1:8000/docs</code> 查看API文档。</p>
+</div>
+</li>
+<li>启动gradio webui 可视化前端：
+  <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="c1"># 使用 pipeline/vlm-transformers/vlm-sglang-client 后端</span>
+mineru-gradio<span class="w"> </span>--server-name<span class="w"> </span><span class="m">0</span>.0.0.0<span class="w"> </span>--server-port<span class="w"> </span><span class="m">7860</span>
+<span class="c1"># 或使用 vlm-sglang-engine/pipeline 后端（需安装sglang环境）</span>
+mineru-gradio<span class="w"> </span>--server-name<span class="w"> </span><span class="m">0</span>.0.0.0<span class="w"> </span>--server-port<span class="w"> </span><span class="m">7860</span><span class="w"> </span>--enable-sglang-engine<span class="w"> </span><span class="nb">true</span>
+</code></pre></div></td></tr></table></div><div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<ul>
+<li>在浏览器中访问 <code>http://127.0.0.1:7860</code> 使用 Gradio WebUI。</li>
+<li>访问 <code>http://127.0.0.1:7860/?view=api</code> 使用 Gradio API。</li>
+</ul>
+</div>
+</li>
+<li>使用<code>sglang-client/server</code>方式调用：
+  <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="c1"># 启动sglang server(需要安装sglang环境)</span>
+mineru-sglang-server<span class="w"> </span>--port<span class="w"> </span><span class="m">30000</span>
+</code></pre></div></td></tr></table></div><div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>在另一个终端中通过sglang client连接sglang server（只需cpu与网络，不需要sglang环境）
+</p><div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>mineru<span class="w"> </span>-p<span class="w"> </span>&lt;input_path&gt;<span class="w"> </span>-o<span class="w"> </span>&lt;output_path&gt;<span class="w"> </span>-b<span class="w"> </span>vlm-sglang-client<span class="w"> </span>-u<span class="w"> </span>http://127.0.0.1:30000
+</code></pre></div></td></tr></table></div>
+</div>
+</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>所有sglang官方支持的参数都可用通过命令行参数传递给 MinerU，包括以下命令:<code>mineru</code>、<code>mineru-sglang-server</code>、<code>mineru-gradio</code>、<code>mineru-api</code>，
+我们整理了一些<code>sglang</code>使用中的常用参数和使用方法，可以在文档<a href="advanced-cli-parameters/">命令行进阶参数</a>中获取。</p>
+</div>
+<h2 id="mineru_1">基于配置文件扩展 MinerU 功能</h2>
+<p>MinerU 现已实现开箱即用，但也支持通过配置文件扩展功能。您可通过编辑用户目录下的 <code>mineru.json</code> 文件，添加自定义配置。</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p><code>mineru.json</code> 文件会在您使用内置模型下载命令 <code>mineru-models-download</code> 时自动生成，也可以通过将<a href="https://github.com/opendatalab/MinerU/blob/master/mineru.template.json">配置模板文件</a>复制到用户目录下并重命名为 <code>mineru.json</code> 来创建。  </p>
+</div>
+<p>以下是一些可用的配置选项： </p>
+<ul>
+<li><code>latex-delimiter-config</code>：用于配置 LaTeX 公式的分隔符，默认为<code>$</code>符号，可根据需要修改为其他符号或字符串。</li>
+<li><code>llm-aided-config</code>：用于配置 LLM 辅助标题分级的相关参数，兼容所有支持<code>openai协议</code>的 LLM 模型，默认使用<code>阿里云百炼</code>的<code>qwen2.5-32b-instruct</code>模型，您需要自行配置 API 密钥并将<code>enable</code>设置为<code>true</code>来启用此功能。</li>
+<li><code>models-dir</code>：用于指定本地模型存储目录，请为<code>pipeline</code>和<code>vlm</code>后端分别指定模型目录，指定目录后您可通过配置环境变量<code>export MINERU_MODEL_SOURCE=local</code>来使用本地模型。</li>
+</ul></div>
 
 
 

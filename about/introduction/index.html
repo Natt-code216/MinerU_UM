@@ -14,7 +14,7 @@
         <link rel="prev" href="../..">
       
       
-        <link rel="next" href="../features/">
+        <link rel="next" href="../matrix/">
       
       
       <link rel="icon" href="../../assets/images/logo.png">
@@ -122,9 +122,19 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="切换到深色模式"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
     
-      <label class="md-header__button md-icon" title="切换到深色模式" for="__palette_1" hidden>
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
       </label>
     
@@ -132,9 +142,9 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="切换到浅色模式"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
     
-      <label class="md-header__button md-icon" title="切换到浅色模式" for="__palette_0" hidden>
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
       </label>
     
@@ -286,8 +296,6 @@
       
         
       
-        
-      
     
     
     
@@ -397,7 +405,7 @@
         <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      使用指南
+      快速开始
     </span>
   </a>
   
@@ -407,29 +415,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../features/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    主要功能
-    
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -968,9 +953,39 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../user-guides/local-deployment/" class="md-nav__link">
+    
+    
+      
         
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../user-guides/local-deployment/" class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -979,7 +994,142 @@
   </span>
   
 
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            本地部署
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guides/local-deployment/extension-modules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    扩展模块安装
+    
+  </span>
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guides/local-deployment/model-source/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    模型源
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guides/local-deployment/cli-tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    命令行工具
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guides/local-deployment/advanced-cli-parameters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    命令行进阶参数
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guides/local-deployment/docker-deployment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Docker部署
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1172,7 +1322,7 @@
         <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      使用指南
+      快速开始
     </span>
   </a>
   
@@ -1257,23 +1407,13 @@ MinerU诞生于<a href="https://github.com/InternLM/InternLM">书生-浦语</a>�
 <li>支持纯CPU环境运行，并支持 GPU(CUDA)/NPU(CANN)/MPS 加速</li>
 <li>兼容Windows、Linux和Mac平台</li>
 </ul>
-<h2 id="_3">使用指南</h2>
+<hr>
+<h2 id="_3">快速开始</h2>
 <ul>
-<li><a href="./quick_start/index.md">快速上手指南</a></li>
-<li>
-<p><a href="./usage/index.md">详细使用说明</a></p>
-</li>
-<li>
-<p>用 1-2 段话清晰说明 MinerU 解决的核心问题（简化大模型本地化部署和管理的复杂性）。</p>
-</li>
-<li>提及项目由 OpenDatalab 发起，强调其开源属性和社区驱动的愿景。
-  特点：</li>
-<li>一键启动与管理: 简化模型下载、环境配置和启停流程。</li>
-<li>多模型源支持: 支持 HuggingFace, ModelScope, OpenDatalab 等。</li>
-<li>标准化 API: 兼容 OpenAI 的 API 格式，无缝对接到现有生态。</li>
-<li>图形化界面: 提供 Web 和桌面端，直观管理模型和服务。</li>
-<li>轻量化设计: 资源占用低，可在个人电脑上流畅运行。</li>
-<li>高度可扩展: 支持通过配置文件轻松扩展新模型。</li>
+<li><a href="../../quick-start/local-deployment.md">本地部署</a></li>
+<li><a href="../../quick-start/web-client/">Web/客户端</a></li>
+<li><a href="../../quick-start/api-service/">在线API服务</a></li>
+<li><a href="../../quick-start/plugins/">插件与生态</a></li>
 </ul></div>
 
 

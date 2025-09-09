@@ -122,9 +122,19 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="切换到深色模式"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
     
-      <label class="md-header__button md-icon" title="切换到深色模式" for="__palette_1" hidden>
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
       </label>
     
@@ -132,9 +142,9 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="切换到浅色模式"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
     
-      <label class="md-header__button md-icon" title="切换到浅色模式" for="__palette_0" hidden>
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
       </label>
     
@@ -284,8 +294,6 @@
       
         
       
-        
-      
     
     
     
@@ -335,29 +343,6 @@
   
   <span class="md-ellipsis">
     产品简介
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../about/features/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    主要功能
     
   </span>
   
@@ -1007,9 +992,39 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../user-guides/local-deployment/" class="md-nav__link">
+    
+    
+      
         
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../user-guides/local-deployment/" class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -1018,7 +1033,142 @@
   </span>
   
 
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            本地部署
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guides/local-deployment/extension-modules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    扩展模块安装
+    
+  </span>
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guides/local-deployment/model-source/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    模型源
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guides/local-deployment/cli-tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    命令行工具
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guides/local-deployment/advanced-cli-parameters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    命令行进阶参数
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guides/local-deployment/docker-deployment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Docker部署
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1278,13 +1428,13 @@
   <h1>本地部署</h1>
 
 <div><h2 id="_1">本地部署</h2>
-<blockquote>
-<p>[!WARNING]
-<strong>安装前必看——软硬件环境支持说明</strong></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><strong>安装前必看——软硬件环境支持说明</strong></p>
 <p>为了确保项目的稳定性和可靠性，我们在开发过程中仅对特定的软硬件环境进行优化和测试。这样当用户在推荐的系统配置上部署和运行项目时，能够获得最佳的性能表现和最少的兼容性问题。</p>
 <p>通过集中资源和精力于主线环境，我们团队能够更高效地解决潜在的BUG，及时开发新功能。</p>
 <p>在非主线环境中，由于硬件、软件配置的多样性，以及第三方依赖项的兼容性问题，我们无法100%保证项目的完全可用性。因此，对于希望在非推荐环境中使用本项目的用户，我们建议先仔细阅读文档以及FAQ，大多数问题已经在FAQ中有对应的解决方案，除此之外我们鼓励社区反馈问题，以便我们能够逐步扩大支持范围。</p>
-</blockquote>
+</div>
 <table border="1">
     <tr>
         <td>解析后端</td>
@@ -1324,30 +1474,34 @@
 
 <h3 id="mineru">安装 MinerU</h3>
 <h4 id="pipuvmineru">使用pip或uv安装MinerU</h4>
-<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>--upgrade<span class="w"> </span>pip<span class="w"> </span>-i<span class="w"> </span>https://mirrors.aliyun.com/pypi/simple
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>--upgrade<span class="w"> </span>pip<span class="w"> </span>-i<span class="w"> </span>https://mirrors.aliyun.com/pypi/simple
 pip<span class="w"> </span>install<span class="w"> </span>uv<span class="w"> </span>-i<span class="w"> </span>https://mirrors.aliyun.com/pypi/simple
 uv<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-U<span class="w"> </span><span class="s2">"mineru[core]"</span><span class="w"> </span>-i<span class="w"> </span>https://mirrors.aliyun.com/pypi/simple<span class="w"> </span>
-</code></pre></div>
+</code></pre></div></td></tr></table></div>
 <h4 id="mineru_1">通过源码安装MinerU</h4>
-<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/opendatalab/MinerU.git
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/opendatalab/MinerU.git
 <span class="nb">cd</span><span class="w"> </span>MinerU
 uv<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </span>.<span class="o">[</span>core<span class="o">]</span><span class="w"> </span>-i<span class="w"> </span>https://mirrors.aliyun.com/pypi/simple
-</code></pre></div>
-<blockquote>
-<p>[!TIP]
-<code>mineru[core]</code>包含除<code>sglang</code>加速外的所有核心功能，兼容Windows / Linux / macOS系统，适合绝大多数用户。
-如果您有使用<code>sglang</code>加速VLM模型推理，或是在边缘设备安装轻量版client端等需求，可以参考文档<a href="./extension_modules.md">扩展模块安装指南</a>。</p>
-</blockquote>
+</code></pre></div></td></tr></table></div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><code>mineru[core]</code>包含除<code>sglang</code>加速外的所有核心功能，兼容Windows / Linux / macOS系统，适合绝大多数用户。
+如果您有使用<code>sglang</code>加速VLM模型推理，或是在边缘设备安装轻量版client端等需求，可以参考文档<a href="../../user-guides/local-deployment/extension-modules/">扩展模块安装指南</a>。</p>
+</div>
 <hr>
 <h4 id="dockermineru">使用docker部署Mineru</h4>
 <p>MinerU提供了便捷的docker部署方式，这有助于快速搭建环境并解决一些棘手的环境兼容问题。
-您可以在文档中获取<a href="./docker_deployment.md">Docker部署说明</a>。</p>
+您可以在文档中获取<a href="../../user-guides/local-deployment/docker-deployment/">Docker部署说明</a>。</p>
 <hr>
 <h3 id="mineru_2">使用 MinerU</h3>
 <p>最简单的命令行调用方式:
-</p><div class="highlight"><pre><span></span><code>mineru<span class="w"> </span>-p<span class="w"> </span>&lt;input_path&gt;<span class="w"> </span>-o<span class="w"> </span>&lt;output_path&gt;
-</code></pre></div>
-<p>您可以通过命令行、API、WebUI等多种方式使用MinerU进行PDF解析，具体使用方法请参考<a href="../usage/index.md">使用指南</a>。</p></div>
+</p><div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>mineru<span class="w"> </span>-p<span class="w"> </span>&lt;input_path&gt;<span class="w"> </span>-o<span class="w"> </span>&lt;output_path&gt;
+</code></pre></div></td></tr></table></div>
+<p>您可以通过命令行、API、WebUI等多种方式使用MinerU进行PDF解析，具体使用方法请参考<a href="../../user-guides/local-deployment/">使用指南</a>。</p></div>
 
 
 

@@ -122,9 +122,19 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="切换到深色模式"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
     
-      <label class="md-header__button md-icon" title="切换到深色模式" for="__palette_1" hidden>
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
       </label>
     
@@ -132,9 +142,9 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="切换到浅色模式"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
     
-      <label class="md-header__button md-icon" title="切换到浅色模式" for="__palette_0" hidden>
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
       </label>
     
@@ -284,8 +294,6 @@
       
         
       
-        
-      
     
     
     
@@ -335,29 +343,6 @@
   
   <span class="md-ellipsis">
     产品简介
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../about/features/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    主要功能
     
   </span>
   
@@ -903,9 +888,39 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../local-deployment/" class="md-nav__link">
+    
+    
+      
         
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../local-deployment/" class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -914,7 +929,142 @@
   </span>
   
 
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            本地部署
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../local-deployment/extension-modules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    扩展模块安装
+    
+  </span>
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../local-deployment/model-source/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    模型源
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../local-deployment/cli-tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    命令行工具
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../local-deployment/advanced-cli-parameters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    命令行进阶参数
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../local-deployment/docker-deployment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Docker部署
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1962,7 +2112,24 @@
 <li>header头中需要包含 Authorization 字段，格式为 Bearer + 空格 + Token</li>
 </ul>
 <h4 id="python">Python 请求示例</h4>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
 
 <span class="n">token</span> <span class="o">=</span> <span class="s2">"官网申请的api token"</span>
 <span class="n">url</span> <span class="o">=</span> <span class="s2">"https://mineru.net/api/v4/extract/task"</span>
@@ -1980,9 +2147,17 @@
 <span class="nb">print</span><span class="p">(</span><span class="n">res</span><span class="o">.</span><span class="n">status_code</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">res</span><span class="o">.</span><span class="n">json</span><span class="p">())</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">res</span><span class="o">.</span><span class="n">json</span><span class="p">()[</span><span class="s2">"data"</span><span class="p">])</span>
-</code></pre></div>
+</code></pre></div></td></tr></table></div>
 <h4 id="curl">CURL 请求示例</h4>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>--location<span class="w"> </span>--request<span class="w"> </span>POST<span class="w"> </span><span class="s1">'https://mineru.net/api/v4/extract/task'</span><span class="w"> </span><span class="se">\</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span>
+<span class="normal">9</span></pre></div></td><td class="code"><div><pre><span></span><code>curl<span class="w"> </span>--location<span class="w"> </span>--request<span class="w"> </span>POST<span class="w"> </span><span class="s1">'https://mineru.net/api/v4/extract/task'</span><span class="w"> </span><span class="se">\</span>
 --header<span class="w"> </span><span class="s1">'Authorization: Bearer ***'</span><span class="w"> </span><span class="se">\</span>
 --header<span class="w"> </span><span class="s1">'Content-Type: application/json'</span><span class="w"> </span><span class="se">\</span>
 --header<span class="w"> </span><span class="s1">'Accept: */*'</span><span class="w"> </span><span class="se">\</span>
@@ -1991,7 +2166,7 @@
 <span class="s1">    "is_ocr": true,</span>
 <span class="s1">    "enable_formula": false</span>
 <span class="s1">}'</span>
-</code></pre></div>
+</code></pre></div></td></tr></table></div>
 <h4 id="_4">请求体参数说明</h4>
 <table>
 <thead>
@@ -2084,12 +2259,16 @@
 </tbody>
 </table>
 <h4 id="_5">请求体示例</h4>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://static.openxlab.org.cn/opendatalab/pdf/demo.pdf"</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">"is_ocr"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">"data_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"abcd"</span>
 <span class="p">}</span>
-</code></pre></div>
+</code></pre></div></td></tr></table></div>
 <h4 id="_6">响应参数说明</h4>
 <table>
 <thead>
@@ -2128,7 +2307,14 @@
 </tbody>
 </table>
 <h4 id="_7">响应示例</h4>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">"code"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">"data"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="nt">"task_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"a90e6ab6-44f3-4554-b4***"</span>
@@ -2136,12 +2322,24 @@
 <span class="w">  </span><span class="nt">"msg"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ok"</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">"trace_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"c876cd60b202f2396de1f9e39a1b0172"</span>
 <span class="p">}</span>
-</code></pre></div>
+</code></pre></div></td></tr></table></div>
 <h3 id="_8">获取任务结果</h3>
 <h4 id="_9">接口说明</h4>
 <p>通过 task_id 查询提取任务目前的进度，任务处理完成后，接口会响应对应的提取详情。</p>
 <h4 id="python_1">Python 请求示例</h4>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
 
 <span class="n">token</span> <span class="o">=</span> <span class="s2">"官网申请的api token"</span>
 <span class="n">url</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"https://mineru.net/api/v4/extract/task/</span><span class="si">{</span><span class="n">task_id</span><span class="si">}</span><span class="s2">"</span>
@@ -2154,12 +2352,14 @@
 <span class="nb">print</span><span class="p">(</span><span class="n">res</span><span class="o">.</span><span class="n">status_code</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">res</span><span class="o">.</span><span class="n">json</span><span class="p">())</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">res</span><span class="o">.</span><span class="n">json</span><span class="p">()[</span><span class="s2">"data"</span><span class="p">])</span>
-</code></pre></div>
+</code></pre></div></td></tr></table></div>
 <h4 id="curl_1">CURL 请求示例</h4>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>--location<span class="w"> </span>--request<span class="w"> </span>GET<span class="w"> </span><span class="s1">'https://mineru.net/api/v4/extract/task/{task_id}'</span><span class="w"> </span><span class="se">\</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code>curl<span class="w"> </span>--location<span class="w"> </span>--request<span class="w"> </span>GET<span class="w"> </span><span class="s1">'https://mineru.net/api/v4/extract/task/{task_id}'</span><span class="w"> </span><span class="se">\</span>
 --header<span class="w"> </span><span class="s1">'Authorization: Bearer *****'</span><span class="w"> </span><span class="se">\</span>
 --header<span class="w"> </span><span class="s1">'Accept: */*'</span>
-</code></pre></div>
+</code></pre></div></td></tr></table></div>
 <h4 id="_10">响应参数说明</h4>
 <table>
 <thead>
@@ -2240,7 +2440,21 @@
 </tbody>
 </table>
 <h4 id="_11">响应示例</h4>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">"code"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">"data"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="nt">"task_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"47726b6e-46ca-4bb9-******"</span><span class="p">,</span>
@@ -2255,8 +2469,18 @@
 <span class="w">  </span><span class="nt">"msg"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ok"</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">"trace_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"c876cd60b202f2396de1f9e39a1b0172"</span>
 <span class="p">}</span>
-</code></pre></div>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
+</code></pre></div></td></tr></table></div>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">"code"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">"data"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="nt">"task_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"47726b6e-46ca-4bb9-******"</span><span class="p">,</span>
@@ -2267,7 +2491,7 @@
 <span class="w">  </span><span class="nt">"msg"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ok"</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">"trace_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"c876cd60b202f2396de1f9e39a1b0172"</span>
 <span class="p">}</span>
-</code></pre></div>
+</code></pre></div></td></tr></table></div>
 <h2 id="_12">批量文件解析</h2>
 <h3 id="_13">文件批量上传解析</h3>
 <h4 id="_14">接口说明</h4>
@@ -2281,7 +2505,45 @@
 <li>header头中需要包含 Authorization 字段，格式为 Bearer + 空格 + Token</li>
 </ul>
 <h4 id="python_2">Python 请求示例</h4>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
 
 <span class="n">token</span> <span class="o">=</span> <span class="s2">"官网申请的api token"</span>
 <span class="n">url</span> <span class="o">=</span> <span class="s2">"https://mineru.net/api/v4/file-urls/batch"</span>
@@ -2320,9 +2582,20 @@
         <span class="nb">print</span><span class="p">(</span><span class="s1">'response not success. status:</span><span class="si">{}</span><span class="s1"> ,result:</span><span class="si">{}</span><span class="s1">'</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">status_code</span><span class="p">,</span> <span class="n">response</span><span class="p">))</span>
 <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">err</span><span class="p">)</span>
-</code></pre></div>
+</code></pre></div></td></tr></table></div>
 <h4 id="curl_2">CURL 请求示例</h4>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>--location<span class="w"> </span>--request<span class="w"> </span>POST<span class="w"> </span><span class="s1">'https://mineru.net/api/v4/file-urls/batch'</span><span class="w"> </span><span class="se">\</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span></pre></div></td><td class="code"><div><pre><span></span><code>curl<span class="w"> </span>--location<span class="w"> </span>--request<span class="w"> </span>POST<span class="w"> </span><span class="s1">'https://mineru.net/api/v4/file-urls/batch'</span><span class="w"> </span><span class="se">\</span>
 --header<span class="w"> </span><span class="s1">'Authorization: Bearer ***'</span><span class="w"> </span><span class="se">\</span>
 --header<span class="w"> </span><span class="s1">'Content-Type: application/json'</span><span class="w"> </span><span class="se">\</span>
 --header<span class="w"> </span><span class="s1">'Accept: */*'</span><span class="w"> </span><span class="se">\</span>
@@ -2334,10 +2607,10 @@
 <span class="s1">        {"name":"demo.pdf", "is_ocr": true, "data_id": "abcd"}</span>
 <span class="s1">    ]</span>
 <span class="s1">}'</span>
-</code></pre></div>
+</code></pre></div></td></tr></table></div>
 <h4 id="curl_3">CURL 文件上传示例</h4>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>PUT<span class="w"> </span>-T<span class="w"> </span>/path/to/your/file.pdf<span class="w"> </span><span class="s1">'https://****'</span>
-</code></pre></div>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>PUT<span class="w"> </span>-T<span class="w"> </span>/path/to/your/file.pdf<span class="w"> </span><span class="s1">'https://****'</span>
+</code></pre></div></td></tr></table></div>
 <h4 id="_15">请求体参数说明</h4>
 <table>
 <thead>
@@ -2430,13 +2703,18 @@
 </tbody>
 </table>
 <h4 id="_16">请求体示例</h4>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">"enable_formula"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">"language"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ch"</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">"enable_table"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">"files"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w"> </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"demo.pdf"</span><span class="p">,</span><span class="w"> </span><span class="nt">"is_ocr"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="nt">"data_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"abcd"</span><span class="w"> </span><span class="p">}]</span>
 <span class="p">}</span>
-</code></pre></div>
+</code></pre></div></td></tr></table></div>
 <h4 id="_17">响应参数说明</h4>
 <table>
 <thead>
@@ -2475,13 +2753,23 @@
 <tr>
 <td>data.files</td>
 <td>[string]</td>
-<td>["https://mineru.oss-cn-shanghai.aliyuncs.com/api-upload/***"]</td>
+<td>["https://mineru.oss-cn-shanghai.aliyuncs.com/api-upload/<em>*</em>"]</td>
 <td>文件上传链接</td>
 </tr>
 </tbody>
 </table>
 <h4 id="_18">响应示例</h4>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">"code"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">"data"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="nt">"batch_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2bb2f0ec-a336-4a0a-b61a-241afaf9cc87"</span><span class="p">,</span>
@@ -2492,7 +2780,7 @@
 <span class="w">  </span><span class="nt">"msg"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ok"</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">"trace_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"c876cd60b202f2396de1f9e39a1b0172"</span>
 <span class="p">}</span>
-</code></pre></div>
+</code></pre></div></td></tr></table></div>
 <h3 id="url">url 批量上传解析</h3>
 <h4 id="_19">接口说明</h4>
 <p>适用于通过 API 批量创建提取任务的场景
@@ -2504,7 +2792,36 @@
 <li>header头中需要包含 Authorization 字段，格式为 Bearer + 空格 + Token</li>
 </ul>
 <h4 id="python_3">Python 请求示例</h4>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
 
 <span class="n">token</span> <span class="o">=</span> <span class="s2">"官网申请的api token"</span>
 <span class="n">url</span> <span class="o">=</span> <span class="s2">"https://mineru.net/api/v4/extract/task/batch"</span>
@@ -2534,9 +2851,20 @@
         <span class="nb">print</span><span class="p">(</span><span class="s1">'response not success. status:</span><span class="si">{}</span><span class="s1"> ,result:</span><span class="si">{}</span><span class="s1">'</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">status_code</span><span class="p">,</span> <span class="n">response</span><span class="p">))</span>
 <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">err</span><span class="p">)</span>
-</code></pre></div>
+</code></pre></div></td></tr></table></div>
 <h4 id="curl_4">CURL 请求示例</h4>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>--location<span class="w"> </span>--request<span class="w"> </span>POST<span class="w"> </span><span class="s1">'https://mineru.net/api/v4/extract/task/batch'</span><span class="w"> </span><span class="se">\</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span></pre></div></td><td class="code"><div><pre><span></span><code>curl<span class="w"> </span>--location<span class="w"> </span>--request<span class="w"> </span>POST<span class="w"> </span><span class="s1">'https://mineru.net/api/v4/extract/task/batch'</span><span class="w"> </span><span class="se">\</span>
 --header<span class="w"> </span><span class="s1">'Authorization: Bearer ***'</span><span class="w"> </span><span class="se">\</span>
 --header<span class="w"> </span><span class="s1">'Content-Type: application/json'</span><span class="w"> </span><span class="se">\</span>
 --header<span class="w"> </span><span class="s1">'Accept: */*'</span><span class="w"> </span><span class="se">\</span>
@@ -2548,7 +2876,7 @@
 <span class="s1">        {"url":"https://cdn-mineru.openxlab.org.cn/demo/example.pdf", "is_ocr": true, "data_id": "abcd"}</span>
 <span class="s1">    ]</span>
 <span class="s1">}'</span>
-</code></pre></div>
+</code></pre></div></td></tr></table></div>
 <h4 id="_20">请求体参数说明</h4>
 <table>
 <thead>
@@ -2641,7 +2969,14 @@
 </tbody>
 </table>
 <h4 id="_21">请求体示例</h4>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="p">{</span>
 <span class="w">    </span><span class="nt">"enable_formula"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
 <span class="w">    </span><span class="nt">"language"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ch"</span><span class="p">,</span>
 <span class="w">    </span><span class="nt">"enable_table"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
@@ -2649,7 +2984,7 @@
 <span class="w">        </span><span class="p">{</span><span class="nt">"url"</span><span class="p">:</span><span class="s2">"https://cdn-mineru.openxlab.org.cn/demo/example.pdf"</span><span class="p">,</span><span class="w"> </span><span class="nt">"is_ocr"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="nt">"data_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"abcd"</span><span class="p">}</span>
 <span class="w">    </span><span class="p">]</span>
 <span class="p">}</span>
-</code></pre></div>
+</code></pre></div></td></tr></table></div>
 <h4 id="_22">响应参数说明</h4>
 <table>
 <thead>
@@ -2688,7 +3023,14 @@
 </tbody>
 </table>
 <h4 id="_23">响应示例</h4>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">"code"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">"data"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="nt">"batch_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2bb2f0ec-a336-4a0a-b61a-241afaf9cc87"</span>
@@ -2696,12 +3038,24 @@
 <span class="w">  </span><span class="nt">"msg"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ok"</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">"trace_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"c876cd60b202f2396de1f9e39a1b0172"</span>
 <span class="p">}</span>
-</code></pre></div>
+</code></pre></div></td></tr></table></div>
 <h3 id="_24">批量获取任务结果</h3>
 <h4 id="_25">接口说明</h4>
 <p>通过 batch_id 批量查询提取任务的进度。</p>
 <h4 id="python_4">Python 请求示例</h4>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
 
 <span class="n">token</span> <span class="o">=</span> <span class="s2">"官网申请的api token"</span>
 <span class="n">url</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"https://mineru.net/api/v4/extract-results/batch/</span><span class="si">{</span><span class="n">batch_id</span><span class="si">}</span><span class="s2">"</span>
@@ -2714,12 +3068,14 @@
 <span class="nb">print</span><span class="p">(</span><span class="n">res</span><span class="o">.</span><span class="n">status_code</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">res</span><span class="o">.</span><span class="n">json</span><span class="p">())</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">res</span><span class="o">.</span><span class="n">json</span><span class="p">()[</span><span class="s2">"data"</span><span class="p">])</span>
-</code></pre></div>
+</code></pre></div></td></tr></table></div>
 <h4 id="curl_5">CURL 请求示例</h4>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>--location<span class="w"> </span>--request<span class="w"> </span>GET<span class="w"> </span><span class="s1">'https://mineru.net/api/v4/extract-results/batch/{batch_id}'</span><span class="w"> </span><span class="se">\</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code>curl<span class="w"> </span>--location<span class="w"> </span>--request<span class="w"> </span>GET<span class="w"> </span><span class="s1">'https://mineru.net/api/v4/extract-results/batch/{batch_id}'</span><span class="w"> </span><span class="se">\</span>
 --header<span class="w"> </span><span class="s1">'Authorization: Bearer *****'</span><span class="w"> </span><span class="se">\</span>
 --header<span class="w"> </span><span class="s1">'Accept: */*'</span>
-</code></pre></div>
+</code></pre></div></td></tr></table></div>
 <h4 id="_26">响应参数说明</h4>
 <table>
 <thead>
@@ -2806,7 +3162,32 @@
 </tbody>
 </table>
 <h4 id="_27">响应示例</h4>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">"code"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">"data"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="nt">"batch_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2bb2f0ec-a336-4a0a-b61a-241afaf9cc87"</span><span class="p">,</span>
@@ -2832,7 +3213,7 @@
 <span class="w">  </span><span class="nt">"msg"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ok"</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">"trace_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"c876cd60b202f2396de1f9e39a1b0172"</span>
 <span class="p">}</span>
-</code></pre></div>
+</code></pre></div></td></tr></table></div>
 <h3 id="_28">常见错误码</h3>
 <table>
 <thead>

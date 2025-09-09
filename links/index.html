@@ -71,6 +71,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -115,9 +120,19 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="切换到深色模式"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
     
-      <label class="md-header__button md-icon" title="切换到深色模式" for="__palette_1" hidden>
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
       </label>
     
@@ -125,9 +140,9 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="切换到浅色模式"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
     
-      <label class="md-header__button md-icon" title="切换到浅色模式" for="__palette_0" hidden>
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
       </label>
     
@@ -277,8 +292,6 @@
       
         
       
-        
-      
     
     
     
@@ -328,29 +341,6 @@
   
   <span class="md-ellipsis">
     产品简介
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../about/features/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    主要功能
     
   </span>
   
@@ -894,9 +884,39 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../user-guides/local-deployment/" class="md-nav__link">
+    
+    
+      
         
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../user-guides/local-deployment/" class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -905,7 +925,142 @@
   </span>
   
 
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            本地部署
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guides/local-deployment/extension-modules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    扩展模块安装
+    
+  </span>
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guides/local-deployment/model-source/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    模型源
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guides/local-deployment/cli-tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    命令行工具
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guides/local-deployment/advanced-cli-parameters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    命令行进阶参数
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guides/local-deployment/docker-deployment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Docker部署
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1044,6 +1199,21 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    友情链接
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -1056,6 +1226,133 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#opendatalab" class="md-nav__link">
+    <span class="md-ellipsis">
+      OpenDataLab
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mineruchem" class="md-nav__link">
+    <span class="md-ellipsis">
+      MinerU.Chem
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      数据可视化工具
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="数据可视化工具">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vis3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vis3
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      数据标注工具
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="数据标注工具">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#label-u" class="md-nav__link">
+    <span class="md-ellipsis">
+      Label U
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#labelllm" class="md-nav__link">
+    <span class="md-ellipsis">
+      LabelLLM
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      数据质量评估工具
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="数据质量评估工具">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#opendataarena" class="md-nav__link">
+    <span class="md-ellipsis">
+      OpenDataArena
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dingo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dingo
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1078,6 +1375,124 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#opendatalab" class="md-nav__link">
+    <span class="md-ellipsis">
+      OpenDataLab
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mineruchem" class="md-nav__link">
+    <span class="md-ellipsis">
+      MinerU.Chem
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      数据可视化工具
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="数据可视化工具">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vis3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vis3
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      数据标注工具
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="数据标注工具">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#label-u" class="md-nav__link">
+    <span class="md-ellipsis">
+      Label U
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#labelllm" class="md-nav__link">
+    <span class="md-ellipsis">
+      LabelLLM
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      数据质量评估工具
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="数据质量评估工具">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#opendataarena" class="md-nav__link">
+    <span class="md-ellipsis">
+      OpenDataArena
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dingo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dingo
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1096,9 +1511,49 @@
   
 
 
-  <h1>友情链接</h1>
-
-<p>111111</p>
+<div><h1 id="_1">友情链接与生态伙伴</h1>
+<hr>
+<h2 id="opendatalab">OpenDataLab</h2>
+<blockquote>
+<p>OpenDataLab 团队,致力于构建 AI 开放数据生态，推动数据要素对大模型领域全面赋能</p>
+</blockquote>
+<p>OpenDataLab 是上海人工智能实验室的大模型数据基座团队打造的数据开放平台，现已成为中国大模型语料数据联盟开源数据服务指定平台，为开发者提供全链条的 AI 数据支持，应对和解决数据处理中的风险与挑战，推动 AI 研究及应用。</p>
+<p>➡️ <strong>访问链接</strong>：<a href="https://opendatalab.com/">https://opendatalab.com/</a></p>
+<hr>
+<h2 id="mineruchem">MinerU.Chem</h2>
+<blockquote>
+<p>全能的化学文档解析工具</p>
+</blockquote>
+<p>MinerU.Chem是针对化学科研场景的专业文档解析工具，结合多模态大模型与智能体技术，能够深度理解化学论文并提取化合物结构和化学反应等关键信息。</p>
+<p>➡️ <strong>访问链接</strong>：<a href="https://mineru.net/chem/">https://mineru.net/chem/</a></p>
+<hr>
+<h2 id="_2">数据可视化工具</h2>
+<h3 id="vis3">Vis3</h3>
+<p>一款为大模型和机器学习设计的数据可视化工具。支持主流云存储平台（阿里云、AWS等S3协议），兼容多种数据格式（json、jsonl.gz、warc.gz、md 等）。通过交互式可视化提供JSON、网页、Markdown、图片等多种视图模式，让数据分析更高效。</p>
+<p><a href="https://github.com/opendatalab/Vis3/tree/main">Vis3: <strong>GitHub 仓库</strong></a> </p>
+<hr>
+<h2 id="_3">数据标注工具</h2>
+<h3 id="label-u">Label U</h3>
+<p>LabelU是一款综合性的数据标注平台，专为处理多模态数据而设计。该平台旨在通过提供丰富的标注工具和高效的工作流程，帮助用户更轻松地处理图像、视频和音频数据的标注任务，满足各种复杂的数据分析和模型训练需求。</p>
+<p><a href="https://github.com/opendatalab/labelU">Label U: <strong>GitHub 仓库</strong></a></p>
+<h3 id="labelllm">LabelLLM</h3>
+<p>LabelLLM是一个开源的数据标注平台，致力于优化对于大型语言模型（LLM）开发不可或缺的数据标注过程。LabelLLM的设计理念旨在成为独立开发者和中小型研究团队提高标注效率的有力工具。它的核心在于通过提供全面的任务管理解决方案和多样化的多模态数据支持，简化并增强模型训练的数据注释过程的效率。</p>
+<p><a href="https://github.com/opendatalab/LabelLLM">Label LLM: <strong>GitHub 仓库</strong></a></p>
+<hr>
+<h2 id="_4">数据质量评估工具</h2>
+<h3 id="opendataarena">OpenDataArena</h3>
+<blockquote>
+<p>公平、公正、公开的数据竞技场 —— 数据价值评估平台</p>
+</blockquote>
+<p>✨ 致力于让每一份数据的价值可衡量、可比较、可验证
+<br>
+✨ 主流 benchmark内容覆盖数学、代码、科学、通用任务等方向
+<br>
+✨ 构建统一流程、可视化榜单、开源打分工具</p>
+<p>➡️ <strong>访问链接</strong>：<a href="https://opendataarena.github.io/index.html">https://opendataarena.github.io/index.html</a></p>
+<h3 id="dingo">Dingo</h3>
+<p>Dingo是一款数据质量评估工具，帮助你自动化检测数据集中的数据质量问题。Dingo提供了多种内置的规则和模型评估方法，同时也支持自定义评估方法。Dingo支持常用的文本数据集和多模态数据集，包括预训练数据集、微调数据集和评测数据集。此外，Dingo支持多种使用方式，包括本地CLI和SDK，便于集成到各种评测平台，如OpenCompass等。</p>
+<p><a href="https://github.com/MigoXLab/dingo">Dingo: <strong>GitHub 仓库</strong></a></p></div>
 
 
 

@@ -12,18 +12,29 @@ theme:
     repo: fontawesome/brands/github
 
   palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      scheme: default
+      primary: black
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: black
       toggle:
         icon: material/brightness-7
-        name: 切换到深色模式
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: black
       toggle:
         icon: material/brightness-4
-        name: 切换到浅色模式
+        name: Switch to system preference
 
   features:
     #- navigation.expand
@@ -61,7 +72,7 @@ nav:
   - '首页': 'index.md'
   - '关于MinerU':
     - '产品简介': 'about/introduction.md'
-    - '主要功能': 'about/features.md'
+    #- '主要功能': 'about/features.md'
     - '产品矩阵': 'about/matrix.md'
   - '版本更新说明':
     - 'Web/客户端': 'release-notes/web-client.md'
@@ -98,8 +109,12 @@ plugins:
 
 markdown_extensions:
   - admonition
+  - gfm_admonition
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
   - attr_list
+  - pymdownx.extra
+  - pymdownx.highlight:
+      linenums: true

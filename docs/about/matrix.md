@@ -8,14 +8,5 @@
 | **部署要求** | **无需部署**，浏览器或客户端即开即用 | 需要 Python/Docker 环境，依赖本地硬件资源 | **无需部署**，通过网络调用 |
 | **定制能力** | 低 | **高** (可修改源代码，自由扩展功能) | 中 (通过 API 参数进行有限定制) |
 | **更新速度** | 稳定版本 (定期更新，保障用户体验) | **最新特性** (与 GitHub 同步，第一时间体验新功能) | 稳定服务 (保障 API 的稳定性和兼容性) |
-| **快速开始** | [访问 MinerU 官网](https://mineru.net/) | [查看 GitHub 开源项目](https://github.com/opendatalab/MinerU/tree/master) | [阅读 API 文档](https://opendatalab.github.io/MinerU/zh/) |
+| **快速开始** | [访问 MinerU 官网](https://mineru.net/){:target="_blank" rel="noopener"} | [查看 GitHub 开源项目](https://github.com/opendatalab/MinerU/tree/master){:target="_blank" rel="noopener"} | [阅读 API 文档](user-guides/api-service.md) |
 
-  解决用户对于选择不同产品形态的困惑
-  清晰对比Web/客户端应用、本地部署开源版和在线 API 服务
-  链接跳转到快速开始界面
-对比角度：
-    适用用户: (应用者/研究者/开发者/高级用户/应用开发者)
-    使用方式: (图形界面 /命令行/代码/HTTP 请求)
-    部署要求: (无需部署/需要 Python/Docker 环境)
-    定制能力: (低 /高)
-    更新速度: (稳定版本/最新特性/稳定服务)

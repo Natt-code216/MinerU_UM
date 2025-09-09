@@ -60,3 +60,12 @@ MinerU诞生于[书生-浦语](https://github.com/InternLM/InternLM)的预训练
 - 支持多种可视化结果，包括layout可视化、span可视化等，便于高效确认输出效果与质检
 - 支持纯CPU环境运行，并支持 GPU(CUDA)/NPU(CANN)/MPS 加速
 - 兼容Windows、Linux和Mac平台
+
+---
+## 快速开始
+
+- [本地部署](../../quick-start/local-deployment.md)
+- [Web/客户端](../quick-start/web-client.md)
+- [在线API服务](../quick-start/api-service.md)
+- [插件与生态](../quick-start/plugins/index.md)
+      

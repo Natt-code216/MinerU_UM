@@ -8,5 +8,5 @@
 | **部署要求** | **无需部署**，浏览器或客户端即开即用 | 需要 Python/Docker 环境，依赖本地硬件资源 | **无需部署**，通过网络调用 |
 | **定制能力** | 低 | **高** (可修改源代码，自由扩展功能) | 中 (通过 API 参数进行有限定制) |
 | **更新速度** | 稳定版本 (定期更新，保障用户体验) | **最新特性** (与 GitHub 同步，第一时间体验新功能) | 稳定服务 (保障 API 的稳定性和兼容性) |
-| **快速开始** | [访问 MinerU 官网](https://mineru.net/){:target="_blank" rel="noopener"} | [查看 GitHub 开源项目](https://github.com/opendatalab/MinerU/tree/master){:target="_blank" rel="noopener"} | [阅读 API 文档](user-guides/api-service.md) |
+| **快速开始** | [访问 MinerU 官网](https://mineru.net/){:target="_blank" rel="noopener"} | [查看 GitHub 开源项目](https://github.com/opendatalab/MinerU/tree/master){:target="_blank" rel="noopener"} | [阅读 API 文档](../user-guides/api-service.md) |
 

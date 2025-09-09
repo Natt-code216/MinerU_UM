@@ -72,7 +72,6 @@ nav:
   - '首页': 'index.md'
   - '关于MinerU':
     - '产品简介': 'about/introduction.md'
-    #- '主要功能': 'about/features.md'
     - '产品矩阵': 'about/matrix.md'
   - '版本更新说明':
     - 'Web/客户端': 'release-notes/web-client.md'
@@ -95,6 +94,7 @@ nav:
       - '扩展模块安装': 'user-guides/local-deployment/extension-modules.md'
       - '模型源': 'user-guides/local-deployment/model-source.md'
       - '命令行工具': 'user-guides/local-deployment/cli-tools.md'
+      - '命令行进阶参数': 'user-guides/local-deployment/advanced-cli-parameters.md'
       - 'Docker部署': 'user-guides/local-deployment/docker-deployment.md'
     - 'Web/客户端': 'user-guides/web-client.md'
     - '在线API服务': 'user-guides/api-service.md'

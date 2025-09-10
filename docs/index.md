@@ -82,8 +82,14 @@
         - [Docker部署](user-guides/local-deployment/docker-deployment.md)
     - [Web/客户端](user-guides/web-client.md)
     - [在线API服务](user-guides/api-service.md)
-    - [插件与生态](user-guides/plugins.md)
-
+    - **插件与生态**
+        - [本章概述](user-guides/plugins/index.md)
+        - [Coze](user-guides/plugins/coze.md)
+        - [Dify](user-guides/plugins/dify.md)
+        - [N8N](user-guides/plugins/n8n.md)
+        - [Cherry Studio](user-guides/plugins/cherry-studio.md)
+        - [Sider](user-guides/plugins/sider.md)
+        
 -   __其他信息__
 
     ---

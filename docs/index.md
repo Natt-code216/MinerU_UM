@@ -80,6 +80,7 @@
         - [模型源](user-guides/local-deployment/model-source.md)
         - [命令行工具](user-guides/local-deployment/cli-tools.md)
         - [Docker部署](user-guides/local-deployment/docker-deployment.md)
+        - [输出文件格式](user-guides/local-deployment/output-files.md)
     - [Web/客户端](user-guides/web-client.md)
     - [在线API服务](user-guides/api-service.md)
     - **插件与生态**
@@ -89,7 +90,7 @@
         - [N8N](user-guides/plugins/n8n.md)
         - [Cherry Studio](user-guides/plugins/cherry-studio.md)
         - [Sider](user-guides/plugins/sider.md)
-        
+
 -   __其他信息__
 
     ---

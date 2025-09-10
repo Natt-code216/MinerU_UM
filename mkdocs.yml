@@ -96,6 +96,7 @@ nav:
       - '命令行工具': 'user-guides/local-deployment/cli-tools.md'
       - '命令行进阶参数': 'user-guides/local-deployment/advanced-cli-parameters.md'
       - 'Docker部署': 'user-guides/local-deployment/docker-deployment.md'
+      - '输出文件格式': 'user-guides/local-deployment/output-files.md'
     - 'Web/客户端': 'user-guides/web-client.md'
     - '在线API服务': 'user-guides/api-service.md'
     - '插件与生态':

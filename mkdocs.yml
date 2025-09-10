@@ -74,8 +74,8 @@ nav:
     - '产品简介': 'about/introduction.md'
     - '产品矩阵': 'about/matrix.md'
   - '版本更新说明':
-    - 'Web/客户端': 'release-notes/web-client.md'
     - '开源版本': 'release-notes/open-source.md'
+    - 'Web/客户端': 'release-notes/web-client.md'
     - '在线API服务': 'release-notes/api-service.md'
   - '快速开始':
     - '本地部署': 'quick-start/local-deployment.md'
@@ -98,7 +98,13 @@ nav:
       - 'Docker部署': 'user-guides/local-deployment/docker-deployment.md'
     - 'Web/客户端': 'user-guides/web-client.md'
     - '在线API服务': 'user-guides/api-service.md'
-    - '插件与生态': 'user-guides/plugins.md' 
+    - '插件与生态':
+      - '本章概述': 'quick-start/plugins/index.md'
+      - 'Coze': 'quick-start/plugins/coze.md'
+      - 'Dify': 'quick-start/plugins/dify.md'
+      - 'N8N': 'quick-start/plugins/n8n.md'
+      - 'Cherry Studio': 'quick-start/plugins/cherry-studio.md'
+      - 'Sider': 'quick-start/plugins/sider.md'
   - '常见问题': 'faq.md'
   - '联系我们': 'contact.md'
   - '友情链接': 'links.md'

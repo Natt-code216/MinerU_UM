@@ -1,4 +1,4 @@
-# MinerU API 申请
+## MinerU API 申请
 
 如需申请或管理您的 MinerU API，请访问我们的官方 API 文档门户。
 
@@ -27,4 +27,4 @@
 
     * 内测期间，我们将根据系统负载情况动态调整限流规则，您可能会遇到限流的临时变更。
     * 请确保上传的文件符合规范，超出限制的请求将被系统自动拒绝。
-    * 如果您的使用需求超出当前限额，欢迎 [联系我们的运营团队](mailto:opendatalab@pjlab.org.cn)，协商适合的解决方案。
+    * 如果您的使用需求超出当前限额，欢迎联系我们的运营团队 [opendatalab@pjlab.org.cn](mailto:opendatalab@pjlab.org.cn)，协商适合的解决方案。

@@ -18,7 +18,7 @@ uv pip install mineru[core]
 uv pip install mineru[all]
 ```
 > [!TIP]
-> 如在安装包含sglang的完整包过程中发生异常，请参考 [sglang 官方文档](https://docs.sglang.ai/start/install.html) 尝试解决，或直接使用 [Docker](./docker_deployment.md) 方式部署镜像。
+> 如在安装包含sglang的完整包过程中发生异常，请参考 [sglang 官方文档](https://docs.sglang.ai/start/install.html) 尝试解决，或直接使用 [Docker](./docker-deployment.md) 方式部署镜像。
 
 ---
 
